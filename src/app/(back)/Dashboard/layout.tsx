@@ -1,10 +1,9 @@
 import React, { ReactNode } from "react";
-import Navbar from '../../components/Frontend/Navbar'
 
 export default function layout({ children }: { children: ReactNode }) {
   return (
     <div>
-      <Navbar/>
+      <h2> I am Back Only Pages Layout</h2>
       {children}
     </div>
   );
